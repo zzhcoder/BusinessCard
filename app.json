@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/more/more"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "名片",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/mingpianjia.png",
+        "selectedIconPath": "images/mingpianjia1.png",
+        "text": "名片夹"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine1.png",
+        "text": "我"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "images/more.png",
+        "selectedIconPath": "images/more1.png",
+        "text": "更多"
+      }
+    ],
+    "selectedColor":"#1afa29",
+    "position":"bottom"
+  }
+}
