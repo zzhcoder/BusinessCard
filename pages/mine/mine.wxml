@@ -1,2 +1,5 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml我是shabi</text>
+<view>hello {{name}}</view>
+<view>{{num}}</view>
+<button bindtap='changeName'>点我</button>
+<button bindtap='changeNum'>数量增加</button>

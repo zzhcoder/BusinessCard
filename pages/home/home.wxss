@@ -1,1 +1,23 @@
 /* pages/home/home.wxss */
+/*整个home页面的布局*/
+.content{
+
+}
+/*顶部的布局*/
+.top{
+  width: 100%;
+}
+/*顶部中搜索的布局*/
+.top_search{
+  width: 90%;
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx; 
+  display:flex;
+  flex-direction:center;
+}
+
+.top_search_icon{
+}
+
+.top_search_input{
+}

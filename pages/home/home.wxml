@@ -1,11 +1,14 @@
 <!--pages/home/home.wxml-->
-<view>
 
-  <view style="height:100px;background-color:#919191">
-  <!--顶部，包含搜索和横向滚动条-->
-    <view>11</view>
-    <view>22</view>
-    <view>33</view>
+<!--最外层-->
+<view class="content">
+  <!--top层-->
+  <view class="top">
+    <!--顶部，包含搜索和横向滚动条-->
+    <view class="top_search">
+      <icon class="top_search_icon" type="search"></icon>
+      <input class="top_search_input" type="text" placeholder="请输入"></input>
+    </view>
   </view>
 
 </view>
